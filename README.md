@@ -8,13 +8,13 @@ All the cool kids put their vimrc online. It's 20x6 and you haven't?
 Tell me your secrets
 --------------------
 You got your usual noise:
--General stuff to act like a text editor from the '90s and beyond
--Syntax coloring
--Tabs for indentation, spaces for formatting within a block
--tab length of four, except for ASM where it's eight
--A sick pilcrow character
--Mash F5 to kill off whitspace so your reviewers don't have an aneurysm
--Case insensitive search mostly
+*General stuff to act like a text editor from the '90s and beyond
+*Syntax coloring
+*Tabs for indentation, spaces for formatting within a block
+*tab length of four, except for ASM where it's eight
+*A sick pilcrow character
+*Mash F5 to kill off whitspace so your reviewers don't have an aneurysm
+*Case insensitive search mostly
 
 For who
 -------
