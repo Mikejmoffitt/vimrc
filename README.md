@@ -13,7 +13,7 @@ You got your usual noise:
 * Tabs for indentation, spaces for formatting within a block
 * tab length of four, except for ASM where it's eight
 * A sick pilcrow character
-* Mash F5 to kill off whitspace so your reviewers don't have an aneurysm
+* Mash F5 to kill off whitespace so your reviewers don't have an aneurysm
 * Case insensitive search mostly
 
 For who
