@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/moffitt/.config/autostart'
+let g:netrw_dirhist_5='/home/moffitt/Development/ddp-hax/src/hacks'
+let g:netrw_dirhist_4='/home/moffitt/Development/marco/src/base'
+let g:netrw_dirhist_3='/home/moffitt/Development/marco/src/marco'
+let g:netrw_dirhist_2='/home/moffitt/Development/marco/src/3rdparty/ym2610'
+let g:netrw_dirhist_1='/home/moffitt/Development/lics2/src/obj'
+let g:netrw_dirhist_0='/home/moffitt/Development/jjsquawk-blandia-conversion/msgundam'
+let g:netrw_dirhist_9='/home/moffitt/Exa/usofami/src/uso'
+let g:netrw_dirhist_8='/home/moffitt/Exa/usofami/src'
+let g:netrw_dirhist_7='/home/moffitt/Development/lics2/src'

@@ -1,37 +1,28 @@
-" Generally, four-space width tabs
-set shiftwidth=4
-set tabstop=4
+" Set up tabs for indentation to cooperate with vim-stabs.
+set noet sts=0 sw=4 ts=4
+set cindent
+set cinoptions=(0,u0,U0
 
-" Tabs for indent level, spaces for formatting within a block
-set noexpandtab
+set nomodeline
 
 " Some basics
 set number
 syntax on
 set nowrap
-
-" EASE INTO IT
 set mouse=a
 
 " Colors galore!
 set t_Co=256
 colorscheme vividchalk
 
-" Copy indentation from previous line
-set smartindent
-
 " Improved search
 set hlsearch
 set smartcase
 
-" Uncomment to Hilight everything in red that is over 80 columns
-" match ErrorMsg '\%>80v.\+'
-
-" Mash F5 to kill off whitespace
-nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
-
-" Only for assembly, I prefer 8-character tab lengths
 autocmd Filetype asm setlocal noexpandtab ts=8 sw=8
+autocmd BufRead,BufNewFile *.a68 setlocal noexpandtab ts=8 sw=8 syntax=asm68k
+autocmd BufRead,BufNewFile *.inc setlocal noexpandtab ts=8 sw=8 syntax=asm68k
+autocmd BufRead,BufNewFile *.s   setlocal noexpandtab ts=8 sw=8 syntax=asm68k
 
 " Brace highlighting
 syn match Braces display '[{}()\[\]]'
@@ -39,6 +30,15 @@ hi Braces ctermfg=43 ctermbg=0
 
 " Some whitespace characters:
 "    Trailing spaces are a dot
-"    EOL is a pilcrow
 "    Tabs are arrows
-set list lcs=trail:·,eol:¶,tab:>—,extends:»,precedes:«
+set list lcs=trail:·,tab:>—,extends:»,precedes:«
+
+set laststatus=2
+
+
+" Plugin-related shortcuts
+map <F4> :NERDTreeToggle <CR>
+map <F12> :YcmCompleter GoTo<CR>
+
+" YCM's diagnostics don't work for any of my projects so
+let g:ycm_show_diagnostics_ui = 0

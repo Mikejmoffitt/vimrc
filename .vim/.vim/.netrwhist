@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/moffitt/LibPOLY/include/poly'
+let g:netrw_dirhist_2='/home/moffitt/LibPOLY/include'
+let g:netrw_dirhist_3='/home/moffitt/LibPOLY/include/poly'
+let g:netrw_dirhist_4='/home/moffitt/Plot3048/Plot 3048/Plot 3048/include'
+let g:netrw_dirhist_5='/home/moffitt/Plot384/include'
+let g:netrw_dirhist_6='/etc/init.d'
+let g:netrw_dirhist_7='/home/moffitt/GhostInTheMachine'
+let g:netrw_dirhist_8='/home/moffitt'
+let g:netrw_dirhist_9='/home/moffitt/GhostInTheMachine'

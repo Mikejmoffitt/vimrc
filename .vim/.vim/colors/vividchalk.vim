@@ -94,7 +94,7 @@ highlight link diffRemoved      Statement
 highlight link diffLine         PreProc
 highlight link diffSubname      Comment
 
-call s:hifg("Normal","#EEEEEE","White",15) " Primary text color
+call s:hifg("Normal","#EEEEEE","White",87)
 if &background == "light" || has("gui_running")
     hi Normal guibg=Black ctermbg=Black
 else
@@ -175,21 +175,18 @@ endif
 hi Identifier cterm=none
 " Commented numbers at the end are *old* 256 color values
 "highlight PreProc       guifg=#EDF8F9
-call s:hifg("Comment"        ,"#AA45FF","DarkMagenta",39) " Royal blue
+call s:hifg("Comment"        ,"#9933CC","DarkMagenta",34) " 92
 " 26 instead?
-call s:hifg("Constant"       ,"#339999","DarkCyan",51) " Data constants in code
+call s:hifg("Constant"       ,"#339999","DarkCyan",21) " 30
 call s:hifg("rubyNumber"     ,"#CCFF33","Yellow",60) " 190
 call s:hifg("String"         ,"#66FF00","LightGreen",44,82) " 82
 call s:hifg("Identifier"     ,"#FFCC00","Yellow",72) " 220
-call s:hifg("Statement"      ,"#FF6600","Brown",68) " Orange
+call s:hifg("Statement"      ,"#FF6600","Brown",68) " 202
 call s:hifg("PreProc"        ,"#AAFFFF","LightCyan",47) " 213
 call s:hifg("railsUserMethod","#AACCFF","LightCyan",27)
-call s:hifg("Type"           ,"#AAAA77","Grey",11) " 101
+call s:hifg("Type"           ,"#AAAA77","Grey",57) " 101
 call s:hifg("railsUserClass" ,"#AAAAAA","Grey",7) " 101
 call s:hifg("Special"        ,"#33AA00","DarkGreen",24) " 7
 call s:hifg("Regexp"         ,"#44B4CC","DarkCyan",21) " 74
 call s:hifg("rubyMethod"     ,"#DDE93D","Yellow",77) " 191
 "highlight railsMethod   guifg=#EE1122 ctermfg=1
-
-syn match Braces display '[{}()\[\]]'
-hi Braces ctermfg=43 ctermbg=0
