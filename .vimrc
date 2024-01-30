@@ -40,5 +40,5 @@ set laststatus=2
 map <F4> :NERDTreeToggle <CR>
 map <F12> :YcmCompleter GoTo<CR>
 
-" YCM's diagnostics don't work for any of my projects so
-let g:ycm_show_diagnostics_ui = 0
+" YCM's diagnostics don't fucking work for any of my projects so
+" let g:ycm_show_diagnostics_ui = 0
